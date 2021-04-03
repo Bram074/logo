@@ -15,7 +15,7 @@ body{
 
 .container {
     margin: 10px;
-    min-width: 80vw;
+    min-width: 75vw;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -67,18 +67,24 @@ input{
     margin-right: 5px;
 }
 
-button{
-    height: 30px;
+.btn{
     width: 100px;
     background-color: white;
     border: 1px solid #002535;
     border-radius: 10px;
     padding: 5px;
+    font-weight: lighter;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto
 }
 
 
-button:hover {
-    background-color: rgb(182, 182, 182);
+.btn:hover {
+    background-color: gray;
+    color: white;
+    cursor:pointer;
 }
 
 label{
