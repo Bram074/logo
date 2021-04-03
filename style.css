@@ -14,7 +14,7 @@ body{
 
 .container {
     margin: 10px;
-    min-width: 70vw;
+    min-width: 80vw;
     display: flex;
     align-content: center;
     justify-content: center;
