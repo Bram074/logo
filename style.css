@@ -10,6 +10,7 @@ body{
     align-content: center;
     justify-content: center;
     height: 100vh;
+    background-color: white;
 }
 
 .container {
@@ -39,16 +40,18 @@ body{
     display: flex;
     justify-content: center;
     align-content: center;
+    height: 30px;
 }
 
 
 #color1, #color2 {
     border: none;
-    background-color: transparent;    
+    background-color: transparent;   
+    height: 30px; 
 }
 
 #color1:hover, #color2:hover{
-    border: solid 1px gray;
+    border: solid 1px rgb(197, 197, 197);
     border-radius: 5px;
 }
 
@@ -62,4 +65,22 @@ body{
 
 input{
     margin-right: 5px;
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid #002535;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+button:hover {
+    background-color: rgb(182, 182, 182);
+}
+
+label{
+    height: 30px;
 }
